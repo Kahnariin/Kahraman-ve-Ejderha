@@ -19,7 +19,7 @@ story = {
     14:f"{name}, ejderhayla savaşmadan önce dinlenmek için meyhanede durdu. Ancak meyhaneyi Yüce Elfler yönetiyor ve altınını çalabilmek için bal likörünü zehirliyorlardı.\n SON\n\n",
     15:f"{name} baltasını elinden geldiğince sert bir şekilde savurdu ama hayalet bunu pek fark etmemiş gibiydi.\n Hayalet {name}'a doğru sürüklendi ve onu bir daha asla uyanmadığı derin bir uykuya teslim etti.\n SON\n\n",
     16:f"{name}, burun deliklerinden dumanlar çıkan ejderhanın uyuduğu sığınağı buldu.\n Hava, {name}'un gözlerini yaktı ve neredeyse adamların kemiklerinin üzerinden kayıyordu, temizlenmişti.\n Canavar yan yatmıştı, hem boğazı hem de karnı hedef bekliyordu.\n\n",
-    17:f"{name} donmuş mağaraya adım attı ama Kuzeyli kanı onu sıcak tuttu.\n Pis kokulu bir tünel tepesine tırmandı ve solundaki bir başka tünelden rüzgar uğulduyordu.\n Yakında bir merdiven de vardı.\n\n"
+    17:f"{name} donmuş mağaraya adım attı ama Kuzeyli kanı onu sıcak tuttu.\n Karşısına leş gibi kokan bir tünel ve solunda da uğuldayan rüzgarlı bir tünel çıktı.\n Yakında bir merdiven de vardı.\n\n"
 }
 
 
