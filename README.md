@@ -4,4 +4,4 @@
 * Dosyayı komut istemcisi ile yürütün.
 * Hikayede karşınıza çıkan seçenekleri şıklarını belirterek seçin. (Parantezleri yazmanıza gerek yok.)
 
-# İyi Eğlenceler  
+## İyi Eğlenceler  
