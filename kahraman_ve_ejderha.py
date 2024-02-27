@@ -1,3 +1,5 @@
+import time
+
 name = input("Ad giriniz: \n\n")
 print("Hoş geldin", name, ". Maceraya hazır ol!\n\n")
 wrong = "Geçersiz cevap! Oyunu kaybettiniz!"
@@ -34,6 +36,7 @@ if answer == "a":
         answer = input("\n(a) Kalkanı kaldır. \n(b) Baltayı savur. \n\n")
         if answer == "a":
             print(story.get(9))
+            time.sleep(15)
         elif answer == "b":
             print(story.get(13))
             print(story.get(3))
@@ -43,22 +46,31 @@ if answer == "a":
                 answer = input("\n(a) Boynuna saldır. \n(b) Karnına saldır.\n\n")
                 if answer == "a":
                     print(story.get(6))
+                    time.sleep(15)
                 elif answer == "b":
                     print(story.get(11))
+                    time.sleep(15)
                 else:
                     print(wrong)
+                    time.sleep(15)
             elif answer == "b":
                 print(story.get(14))
+                time.sleep(15)
         else:
             print(wrong)
+            time.sleep(15)
     elif answer == "b":
         print(story.get(8))
+        time.sleep(15)
     elif answer == "c":
         print(story.get(12))
+        time.sleep(15)
     else:
         print(wrong)
+        time.sleep(15)
 elif answer == "b":
     print(story.get(8))
+    time.sleep(15)
 elif answer == "c":
     print(story.get(12))
     answer = input("\n(a) Tepelerden geç. \n(b) Bataklıktan geç. \n\n")
@@ -70,19 +82,25 @@ elif answer == "c":
             answer = input("\n(a) Boynuna saldır. \n(b) Karnına saldır.\n\n")
             if answer == "a":
                 print(story.get(6))
+                time.sleep(15)
             elif answer == "b":
                 print(story.get(11))
+                time.sleep(15)
             else:
                 print(wrong)
+                time.sleep(15)
         elif answer == "b":
             print(story.get(14))
+            time.sleep(15)
         else:
             print(wrong)
+            time.sleep(15)
     elif answer == "b":
         print(story.get(5))
         answer = input("\n(a) Hayalete saldır. \n(b) Altın ver. \n\n")
         if answer == "a":
             print(story.get(15))
+            time.sleep(15)
         elif answer == "b":
             print(story.get(10))
             print(story.get(7))
@@ -92,17 +110,25 @@ elif answer == "c":
                 answer = input("\n(a) Boynuna saldır. \n(b) Karnına saldır.\n\n")
                 if answer == "a":
                     print(story.get(6))
+                    time.sleep(15)
                 elif answer == "b":
                     print(story.get(11))
+                    time.sleep(15)
                 else:
                     print(wrong)
+                    time.sleep(15)
             elif answer == "b":
                 print(story.get(14))
+                time.sleep(15)
             else:
                 print(wrong)
+                time.sleep(15)
         else:
             print(wrong)
+            time.sleep(15)
     else:
         print(wrong)
+        time.sleep(15)
 else:
     print(wrong)
+    time.sleep(15)
